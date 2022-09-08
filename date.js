@@ -1,4 +1,4 @@
-module.exports = function (done) {
+module.exports = (done) => {
 	const date = Date();
 	done(date);
 };
